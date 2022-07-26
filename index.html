@@ -1,0 +1,45 @@
+<html>
+ <head>
+   <title> HTML5 Forms </title>
+   <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+ </head>
+
+  <body background="cropped-1600-900-674369.jpg ">
+    <h2 align="center"><font face="calibri">FAÇA SEU CADASTRO </font></h2>
+
+    <table border="0" width="700" align="center" bgcolor="">
+    <tr><td>
+    <fieldset> <!-- Contorno ou Margem para o Formulário -->
+        <legend align=""> Digite seus dados </legend>
+            <table border="0" cellpadding="5">
+            <tr>
+            <td><label> Nome do usuario: </label> </td>
+            <td><input type="text" id="nome" name="nome" placeholder="Digite seu nome de usuario" maxlength="30" size="25" required/> </td>
+            </tr>
+            <tr>
+            <td> <label> E-mail: </label> </td>
+            <td> <input type="email" id="mail" name="mail" placeholder="Digite seu e-mail" size="25" required/> </td>
+            </tr>
+            <tr>
+            <td> <label> Senha: </label> </td>
+            <td> <input type="password" id="senha" name="senha"  placeholder="Digite aqui sua senha" maxlength="35" size="25" required/> </td>
+            </tr>
+            <tr>
+            <td> <label> Confirmar Senha: </label> </td>
+            <td> <input type="password" id="senha" name="senha" placeholder="Digite aqui sua senha" maxlength="35" size="25" required/> </td>
+            </tr>
+            <tr>
+            <td> <label> Telefone: </label> </td>
+            <td> <input type="tel" name="fone" id="fone" placeholder="Digite aqui seu telefone" size="25" maxlength="11"/> </td>
+            </tr> 
+            <tr>
+            <td> <label> Data de nascimento: </label> </td>
+            <td> <input type="date" id="data_nasc" name="data_nasc" min="1900-01-01" max="2004-07-01" required/> </td>
+            </tr>   
+            <th colspan="2" align="left" >
+            <a href="heroi.html"> <input type="submit" id="enviar" name="enviar" value="ENVIAR"></a> 
+            <input type="reset" id="limpar" name="enviar" value="LIMPAR">
+            </th>
+        </table>
+      </fieldset>
+    </body>
